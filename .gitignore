@@ -1,0 +1,31 @@
+# Python virtual environments
+venv/
+.venv/
+
+# Python/VS Code caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+
+
+
+# Environment/config secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data and generated outputs
+data/
+out/
+eval/results/
+
+# Downloaded/trained model artifacts
+models/
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
